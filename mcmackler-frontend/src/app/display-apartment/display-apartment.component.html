@@ -1,0 +1,51 @@
+<section class="col-md-12" id="flex">
+  <!--.Card-->
+<article class="card">
+  <img class="card-img-top img-fluid" src="https://ycdn.space/h/2014/03/002-luxury-apartement-nuritk.jpg" alt="Card image" style="width:100%">
+  <button type="button" class="btn btn-outline-light btn-position">Miete</button>
+  <div class="card-body">
+    <h6 class="card-title">Some example text some example text. Some example text some example text</h6>
+    <p class="card-text secondary">365 sinn / Fleichbach</p>
+    <p><span class="price">1900 &euro;</span><span class="room">2 Zimmer | ab 30 m<sup>2</sup> </span></p>
+  </div>
+</article>
+  <!--End .Card-->
+<article class="card">
+    <img class="card-img-top img-fluid" src="https://ycdn.space/h/2014/03/002-luxury-apartement-nuritk.jpg" alt="Card image" style="width:100%">
+    <button type="button" class="btn btn-outline-light btn-position">Miete</button>
+    <div class="card-body">
+      <h6 class="card-title">Some example text some example text. Some example text some example text</h6>
+      <p class="card-text secondary">365 sinn / Fleichbach</p>
+      <p><span class="price">1900 &euro;</span><span class="room">2 Zimmer | ab 30 m<sup>2</sup> </span></p>
+    </div>
+  </article>
+  <article class="card">
+      <img class="card-img-top img-fluid" src="https://ycdn.space/h/2014/03/002-luxury-apartement-nuritk.jpg" alt="Card image" style="width:100%">
+      <button type="button" class="btn btn-outline-light btn-position">Miete</button>
+      <div class="card-body">
+        <h6 class="card-title">Some example text some example text. Some example text some example text</h6>
+        <p class="card-text secondary">365 sinn / Fleichbach</p>
+        <p><span class="price">1900 &euro;</span><span class="room">2 Zimmer | ab 30 m<sup>2</sup> </span></p>
+      </div>
+    </article>
+
+</section>
+
+
+<!-- I create a service api but it doesn't get data below is my test
+i test in with another api link and it done but 
+with your link it doesn't I don't know why!!!-->
+
+<table>
+
+  <tbody>
+      <tr *ngFor="let item of AdsList">
+          <td>{{item.title}}</td>
+          <td>{{item.baseRent}}</td>
+          <td>{{item.space}}</td>
+          <td>{{item.numberOfRooms}}</td>
+      </tr>
+  </tbody>
+</table>
+
+  
